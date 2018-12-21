@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="assets/javascript/trivia.js"></script>
+
+</head>
+<body>
+	
+<div class="container text-center">
+	<div class="row" id="splashScreen">
+		<div class="col-sm-3 col-md-4"></div>
+		<div class="col-sm-6 col-md-4">
+			<h1>STOP! I am the Grim Reaper!</h1>
+			<h5>"Whoever wants to cheat death must answer 3 questions."</h5>
+			<div class="btn btn-success" id="start">Start Game</div>
+		</div>
+		<div class="col-sm-3 col-md-4"></div>
+	</div>
+	
+
+	<div class="row" id="questions">
+		<div class="col-sm-3 col-md-4"></div>
+		<div class="col-sm-6 col-md-4" id="snarf">
+			<div id="timer"><h1>00:05</h1></div>
+			<div id="text" data-correct="true"></div>
+
+			<div id="answers"></div>
+			<br>
+		</div>
+		<div class="col-sm-3 col-md-4"></div>
+	</div>
+
+	<div class="row" id="gameOver">
+		<div class="col-sm-3 col-md-4"></div>
+		<div class="col-sm-6 col-md-4">
+			<h2>RESULTS</h2>
+			<div id="results"></div>
+			<br>
+			<div class="btn btn-success" id="restart">Restart</div>
+		</div>
+		<div class="col-sm-3 col-md-4"></div>
+	</div>
+	<br>
+	<br>
+	<div class="row">
+		<div class="col-xs-1"></div>
+		<div class="col-xs-5" id="img1"></div>
+		<div class="col-xs-5" id="img2"></div>
+		<div class="col-xs-1"></div>		
+	</div>
+	<div id="billtedThoughts">
+		<img src="assets/images/wordBubble.png" alt="Word Bubble with text">
+		<p>"Wow dude!</p>
+		<p>Are there any bodacious babes around?</p>
+		<p>Can you play the air quitar?</p> 
+		<p>Is your Refrigerator running?</p>
+		<p>Most Excellant!"</p>
+	</div>
+	<div id="reaperThoughts">
+		<img src="assets/images/wordBubbleLeft.png" alt="Word Bubble with text">
+		<p>"Da! No!</p>
+		<p>Never! I am fiddel with the instrument, DEATH</p>
+		<p>What? Wait it is!  I will  be right back"</p> 
+	</div>
+	    
+
+</div>
+
+	
+
+	
+
+</body>
+</html>
